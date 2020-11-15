@@ -5,10 +5,9 @@
 #ifndef LEARNC_UTILS_H
 #define LEARNC_UTILS_H
 
-#include <stdarg.h>
-#include <stdio.h>
+#include "../global.h"
 #define PRINTF_BUFF 1024
 
-int println(const char *fmt, ...);
+extern int println(const char *fmt, ...);
 
 #endif //LEARNC_UTILS_H

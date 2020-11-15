@@ -1,9 +1,10 @@
-#include <stdio.h>
-#include "utils/utils.h"
+#include "global.h"
+#include "mem/mem.h"
 
 int main(void)
 {
     println("Hello World!");
-    println("ÄãºÃ£¬ÊÀ½ç£¡");
+    mem();
+    system("pause");
     return 0;
 }

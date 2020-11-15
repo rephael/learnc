@@ -2,9 +2,9 @@
 // Created by raphael on 2020/11/15.
 //
 
-#include "utils.h"
+#include "../global.h"
 
-int println(const char *fmt, ...)
+extern int println(const char *fmt, ...)
 {
     char printf_buf[PRINTF_BUFF];
     va_list args;
